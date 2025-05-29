@@ -1,0 +1,22 @@
+[
+  {
+    "day": 1,
+    "meeting_overload_index": 50
+  },
+  {
+    "day": 2,
+    "meeting_overload_index": 69
+  },
+  {
+    "day": 3,
+    "meeting_overload_index": 63
+  },
+  {
+    "day": 4,
+    "meeting_overload_index": 63
+  },
+  {
+    "day": 5,
+    "meeting_overload_index": 66
+  }
+]

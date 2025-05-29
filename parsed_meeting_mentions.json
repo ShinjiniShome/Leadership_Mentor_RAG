@@ -1,0 +1,33 @@
+[
+  {
+    "day": 1,
+    "meeting_mentions": []
+  },
+  {
+    "day": 2,
+    "meeting_mentions": [
+      "[19:32:57] John: Sprint retrospective meeting on Friday.",
+      "[02:57:27] John: Stand-up meeting in 10 minutes, please be on time.",
+      "[10:32:53] John: Stand-up meeting in 10 minutes, please be on time."
+    ]
+  },
+  {
+    "day": 3,
+    "meeting_mentions": [
+      "[14:05:27] Sarah: Sprint retrospective meeting on Friday."
+    ]
+  },
+  {
+    "day": 4,
+    "meeting_mentions": [
+      "[03:17:49] Bob: Stand-up meeting in 10 minutes, please be on time."
+    ]
+  },
+  {
+    "day": 5,
+    "meeting_mentions": [
+      "[03:57:06] Bob: Stand-up meeting in 10 minutes, please be on time.",
+      "[03:44:18] Bob: Stand-up meeting in 10 minutes, please be on time."
+    ]
+  }
+]

@@ -101,7 +101,7 @@ def resolve_conflict(query):
     df = pd.read_csv('conflict_resolution_data_gpt3.5_100.csv')
 
     # Load research papers (hardcoded JSON files)
-    json_files = ['team_conflict_resolution_articles.json', 'team_conflict_resolution_articles1.json']
+    json_files = ['team_conflict_resolution_articles.json', 'team_conflict_resolution_articles1.json', 'team_conflict_resolution_articles2.json']
 
     # Retrieve similar conflicts from CSV
     csv_results = retrieve_similar_conflicts_from_csv(query, df)

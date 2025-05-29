@@ -1,0 +1,59 @@
+[
+  {
+    "day": 1,
+    "log": [
+      "[16:48:54] Bob: Offer discussion project particularly.",
+      "[12:00:26] Alice: Deadline approaching, please update your tasks.",
+      "[20:32:34] Alice: Reminder: Submit your timesheets today.",
+      "[02:18:26] John: Deploy scheduled for tomorrow afternoon.",
+      "[12:54:58] Bob: Tv finally should against decision former."
+    ]
+  },
+  {
+    "day": 2,
+    "log": [
+      "[03:48:17] John: Most level measure sit building four.",
+      "[19:32:57] John: Sprint retrospective meeting on Friday.",
+      "[02:57:27] John: Stand-up meeting in 10 minutes, please be on time.",
+      "[07:10:22] Martin: Deadline approaching, please update your tasks.",
+      "[10:32:53] John: Stand-up meeting in 10 minutes, please be on time.",
+      "[09:18:35] John: Can you update the project documentation?",
+      "[18:09:39] Martin: Miss so move raise.",
+      "[22:26:28] John: Reminder: Submit your timesheets today."
+    ]
+  },
+  {
+    "day": 3,
+    "log": [
+      "[14:05:27] Sarah: Sprint retrospective meeting on Friday.",
+      "[04:28:55] Sarah: Client sent feedback, need to discuss.",
+      "[14:19:23] John: Deadline approaching, please update your tasks.",
+      "[00:08:28] Sarah: Green state available along.",
+      "[14:02:23] Sarah: Hotel then physical ok.",
+      "[06:42:45] John: Situation yes different environmental.",
+      "[01:58:39] John: Deploy scheduled for tomorrow afternoon."
+    ]
+  },
+  {
+    "day": 4,
+    "log": [
+      "[07:04:30] John: Any blockers for this week's deliverables?",
+      "[23:41:38] John: Can someone review my PR?",
+      "[07:06:21] Alice: Compare structure offer.",
+      "[01:57:42] John: Can someone review my PR?",
+      "[03:17:49] Bob: Stand-up meeting in 10 minutes, please be on time.",
+      "[19:19:44] Alice: Speech music economy it organization.",
+      "[21:23:03] Bob: Tv better last pull two war.",
+      "[20:43:31] Bob: Any blockers for this week's deliverables?"
+    ]
+  },
+  {
+    "day": 5,
+    "log": [
+      "[03:57:06] Bob: Stand-up meeting in 10 minutes, please be on time.",
+      "[00:23:23] Martin: Something son down see trial them book program.",
+      "[03:44:18] Bob: Stand-up meeting in 10 minutes, please be on time.",
+      "[12:36:21] John: Bring consumer mind appear in support TV read."
+    ]
+  }
+]

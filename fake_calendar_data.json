@@ -1,0 +1,558 @@
+[
+  {
+    "day": 1,
+    "schedules": [
+      {
+        "employee": "Alice",
+        "meetings": [
+          {
+            "title": "Daily Stand-up",
+            "time": "15:15",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Conference Room A"
+          },
+          {
+            "title": "Cross-Team Collaboration",
+            "time": "14:45",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Zoom"
+          },
+          {
+            "title": "Cross-Team Collaboration",
+            "time": "14:00",
+            "duration": "15 mins",
+            "type": "In-Person",
+            "location": "Conference Room A"
+          },
+          {
+            "title": "One-on-One Meeting",
+            "time": "16:00",
+            "duration": "15 mins",
+            "type": "Virtual",
+            "location": "Teams"
+          }
+        ]
+      },
+      {
+        "employee": "Bob",
+        "meetings": [
+          {
+            "title": "Frontend Feature Planning",
+            "time": "10:15",
+            "duration": "30 mins",
+            "type": "In-Person",
+            "location": "Teams"
+          }
+        ]
+      },
+      {
+        "employee": "Sarah",
+        "meetings": [
+          {
+            "title": "Sprint Planning",
+            "time": "08:30",
+            "duration": "60 mins",
+            "type": "In-Person",
+            "location": "Conference Room B"
+          },
+          {
+            "title": "Project Retrospective",
+            "time": "15:30",
+            "duration": "15 mins",
+            "type": "In-Person",
+            "location": "Board Room"
+          }
+        ]
+      },
+      {
+        "employee": "John",
+        "meetings": [
+          {
+            "title": "Frontend Feature Planning",
+            "time": "17:45",
+            "duration": "60 mins",
+            "type": "In-Person",
+            "location": "Conference Room A"
+          }
+        ]
+      },
+      {
+        "employee": "Martin",
+        "meetings": [
+          {
+            "title": "Client Feedback Review",
+            "time": "09:45",
+            "duration": "60 mins",
+            "type": "In-Person",
+            "location": "Zoom"
+          },
+          {
+            "title": "Design Review",
+            "time": "09:00",
+            "duration": "60 mins",
+            "type": "In-Person",
+            "location": "Conference Room A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "schedules": [
+      {
+        "employee": "Alice",
+        "meetings": [
+          {
+            "title": "One-on-One Meeting",
+            "time": "08:30",
+            "duration": "15 mins",
+            "type": "Virtual",
+            "location": "Zoom"
+          },
+          {
+            "title": "Sprint Planning",
+            "time": "17:00",
+            "duration": "15 mins",
+            "type": "In-Person",
+            "location": "Teams"
+          },
+          {
+            "title": "Backend Architecture Discussion",
+            "time": "11:15",
+            "duration": "60 mins",
+            "type": "Virtual",
+            "location": "Teams"
+          },
+          {
+            "title": "One-on-One Meeting",
+            "time": "11:30",
+            "duration": "45 mins",
+            "type": "In-Person",
+            "location": "Board Room"
+          }
+        ]
+      },
+      {
+        "employee": "Bob",
+        "meetings": [
+          {
+            "title": "Design Review",
+            "time": "08:45",
+            "duration": "15 mins",
+            "type": "In-Person",
+            "location": "Zoom"
+          },
+          {
+            "title": "Backend Architecture Discussion",
+            "time": "15:15",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Conference Room B"
+          }
+        ]
+      },
+      {
+        "employee": "Sarah",
+        "meetings": [
+          {
+            "title": "Project Retrospective",
+            "time": "13:45",
+            "duration": "45 mins",
+            "type": "In-Person",
+            "location": "Zoom"
+          },
+          {
+            "title": "Design Review",
+            "time": "10:15",
+            "duration": "60 mins",
+            "type": "Virtual",
+            "location": "Teams"
+          }
+        ]
+      },
+      {
+        "employee": "John",
+        "meetings": [
+          {
+            "title": "Cross-Team Collaboration",
+            "time": "09:15",
+            "duration": "60 mins",
+            "type": "Virtual",
+            "location": "Conference Room B"
+          },
+          {
+            "title": "Backend Architecture Discussion",
+            "time": "12:45",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Conference Room A"
+          }
+        ]
+      },
+      {
+        "employee": "Martin",
+        "meetings": [
+          {
+            "title": "Sprint Planning",
+            "time": "15:15",
+            "duration": "15 mins",
+            "type": "In-Person",
+            "location": "Conference Room A"
+          },
+          {
+            "title": "QA Sync",
+            "time": "15:15",
+            "duration": "60 mins",
+            "type": "In-Person",
+            "location": "Board Room"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "schedules": [
+      {
+        "employee": "Alice",
+        "meetings": [
+          {
+            "title": "Cross-Team Collaboration",
+            "time": "12:00",
+            "duration": "45 mins",
+            "type": "In-Person",
+            "location": "Board Room"
+          },
+          {
+            "title": "Backend Architecture Discussion",
+            "time": "16:45",
+            "duration": "30 mins",
+            "type": "Virtual",
+            "location": "Conference Room A"
+          },
+          {
+            "title": "Project Retrospective",
+            "time": "15:45",
+            "duration": "30 mins",
+            "type": "In-Person",
+            "location": "Board Room"
+          },
+          {
+            "title": "Daily Stand-up",
+            "time": "13:30",
+            "duration": "60 mins",
+            "type": "In-Person",
+            "location": "Board Room"
+          }
+        ]
+      },
+      {
+        "employee": "Bob",
+        "meetings": [
+          {
+            "title": "Project Retrospective",
+            "time": "13:45",
+            "duration": "60 mins",
+            "type": "Virtual",
+            "location": "Conference Room A"
+          },
+          {
+            "title": "Backend Architecture Discussion",
+            "time": "08:00",
+            "duration": "15 mins",
+            "type": "Virtual",
+            "location": "Teams"
+          },
+          {
+            "title": "Cross-Team Collaboration",
+            "time": "11:15",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Zoom"
+          }
+        ]
+      },
+      {
+        "employee": "Sarah",
+        "meetings": [
+          {
+            "title": "Project Retrospective",
+            "time": "16:30",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Zoom"
+          },
+          {
+            "title": "Client Feedback Review",
+            "time": "15:00",
+            "duration": "30 mins",
+            "type": "In-Person",
+            "location": "Conference Room B"
+          }
+        ]
+      },
+      {
+        "employee": "John",
+        "meetings": [
+          {
+            "title": "Project Retrospective",
+            "time": "13:45",
+            "duration": "30 mins",
+            "type": "In-Person",
+            "location": "Conference Room B"
+          }
+        ]
+      },
+      {
+        "employee": "Martin",
+        "meetings": [
+          {
+            "title": "Daily Stand-up",
+            "time": "09:15",
+            "duration": "45 mins",
+            "type": "In-Person",
+            "location": "Teams"
+          },
+          {
+            "title": "Project Retrospective",
+            "time": "09:45",
+            "duration": "30 mins",
+            "type": "Virtual",
+            "location": "Teams"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "schedules": [
+      {
+        "employee": "Alice",
+        "meetings": [
+          {
+            "title": "Frontend Feature Planning",
+            "time": "15:15",
+            "duration": "30 mins",
+            "type": "Virtual",
+            "location": "Conference Room B"
+          }
+        ]
+      },
+      {
+        "employee": "Bob",
+        "meetings": [
+          {
+            "title": "One-on-One Meeting",
+            "time": "16:45",
+            "duration": "60 mins",
+            "type": "In-Person",
+            "location": "Board Room"
+          },
+          {
+            "title": "Backend Architecture Discussion",
+            "time": "11:30",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Teams"
+          },
+          {
+            "title": "Daily Stand-up",
+            "time": "09:30",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Teams"
+          },
+          {
+            "title": "One-on-One Meeting",
+            "time": "11:45",
+            "duration": "30 mins",
+            "type": "In-Person",
+            "location": "Board Room"
+          }
+        ]
+      },
+      {
+        "employee": "Sarah",
+        "meetings": [
+          {
+            "title": "Cross-Team Collaboration",
+            "time": "12:30",
+            "duration": "30 mins",
+            "type": "Virtual",
+            "location": "Zoom"
+          },
+          {
+            "title": "Client Feedback Review",
+            "time": "15:15",
+            "duration": "30 mins",
+            "type": "Virtual",
+            "location": "Conference Room B"
+          }
+        ]
+      },
+      {
+        "employee": "John",
+        "meetings": [
+          {
+            "title": "Daily Stand-up",
+            "time": "14:45",
+            "duration": "45 mins",
+            "type": "In-Person",
+            "location": "Conference Room B"
+          },
+          {
+            "title": "Backend Architecture Discussion",
+            "time": "09:45",
+            "duration": "30 mins",
+            "type": "Virtual",
+            "location": "Teams"
+          }
+        ]
+      },
+      {
+        "employee": "Martin",
+        "meetings": [
+          {
+            "title": "Daily Stand-up",
+            "time": "09:15",
+            "duration": "60 mins",
+            "type": "Virtual",
+            "location": "Zoom"
+          },
+          {
+            "title": "Sprint Planning",
+            "time": "13:45",
+            "duration": "15 mins",
+            "type": "Virtual",
+            "location": "Board Room"
+          },
+          {
+            "title": "Design Review",
+            "time": "11:45",
+            "duration": "30 mins",
+            "type": "In-Person",
+            "location": "Board Room"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "schedules": [
+      {
+        "employee": "Alice",
+        "meetings": [
+          {
+            "title": "Design Review",
+            "time": "12:45",
+            "duration": "15 mins",
+            "type": "Virtual",
+            "location": "Conference Room B"
+          },
+          {
+            "title": "Daily Stand-up",
+            "time": "11:30",
+            "duration": "15 mins",
+            "type": "Virtual",
+            "location": "Zoom"
+          },
+          {
+            "title": "Project Retrospective",
+            "time": "09:30",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Board Room"
+          },
+          {
+            "title": "Project Retrospective",
+            "time": "14:00",
+            "duration": "15 mins",
+            "type": "In-Person",
+            "location": "Conference Room B"
+          }
+        ]
+      },
+      {
+        "employee": "Bob",
+        "meetings": [
+          {
+            "title": "One-on-One Meeting",
+            "time": "15:45",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Conference Room A"
+          }
+        ]
+      },
+      {
+        "employee": "Sarah",
+        "meetings": [
+          {
+            "title": "Design Review",
+            "time": "11:45",
+            "duration": "15 mins",
+            "type": "Virtual",
+            "location": "Zoom"
+          },
+          {
+            "title": "Frontend Feature Planning",
+            "time": "10:30",
+            "duration": "45 mins",
+            "type": "In-Person",
+            "location": "Zoom"
+          },
+          {
+            "title": "Frontend Feature Planning",
+            "time": "08:15",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Board Room"
+          }
+        ]
+      },
+      {
+        "employee": "John",
+        "meetings": [
+          {
+            "title": "Frontend Feature Planning",
+            "time": "16:00",
+            "duration": "30 mins",
+            "type": "In-Person",
+            "location": "Conference Room A"
+          },
+          {
+            "title": "One-on-One Meeting",
+            "time": "08:15",
+            "duration": "45 mins",
+            "type": "Virtual",
+            "location": "Zoom"
+          },
+          {
+            "title": "Frontend Feature Planning",
+            "time": "12:30",
+            "duration": "60 mins",
+            "type": "Virtual",
+            "location": "Conference Room B"
+          }
+        ]
+      },
+      {
+        "employee": "Martin",
+        "meetings": [
+          {
+            "title": "QA Sync",
+            "time": "10:15",
+            "duration": "45 mins",
+            "type": "In-Person",
+            "location": "Teams"
+          }
+        ]
+      }
+    ]
+  }
+]

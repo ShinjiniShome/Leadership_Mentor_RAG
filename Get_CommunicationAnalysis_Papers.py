@@ -31,34 +31,46 @@ def fetch_semantic_scholar_articles(total_papers=10, batch_size=10):
     """Fetches open-access research papers from Semantic Scholar without pagination."""
     url = "https://api.semanticscholar.org/graph/v1/paper/search"
     all_articles = []
-    queries = [
-        "team conflict resolution",
-        "corporate team conflict resolution",
-        "workplace conflict mediation",
-        "organizational dispute management",
-        "Conflict resolution in corporate teams",
-        "Strategies for resolving team conflicts in organizations",
-        "Team conflict management in the workplace",
-        "Corporate team conflict resolution methods",
-        "Effective conflict resolution strategies for teams",
-        "Leadership and team conflict resolution in business",
-        "Interpersonal conflict in teams and resolution strategies",
-        "Communication and conflict resolution in corporate teams",
-        "Conflict resolution in cross-functional teams",
-        "Mediation in team conflict resolution",
-        "Psychological aspects of conflict resolution in teams",
-        "Case studies on team conflict resolution in organizations",
-        "Best practices for managing team conflict",
-        "Team conflict and collaboration in the workplace",
-        "Resolving conflicts in team dynamics",
-        "Resolving conflicts n teams"
-    ]
+    
+    # Updated queries for Communication Overload & Productivity
+    queries = queries = [
+    # Digital communication & meeting overload
+    "information overload in digital collaboration tools like Slack or Microsoft Teams",
+    "impact of meeting overload on employee productivity and well-being",
+    "digital communication overload and employee performance",
+    "meeting fatigue and its impact on work efficiency",
+    "asynchronous vs synchronous communication impact on productivity",
+    "strategies to reduce communication overload in organizations",
+    "employee burnout due to communication volume",
+    "collaboration tool overload and team performance",
+    "best practices for reducing digital communication stress",
+    "meeting science and overload management",
+    
+    # Work management & collaboration methods
+    "implementing kanban boards to improve task visibility and reduce overload",
+    "kanban boards for managing communication and task flow",
+    "agile workflows and their impact on reducing meeting overload",
+    "scrum methodology and digital collaboration overload",
+    "task prioritization methods in digital workplaces",
+    "impact of task management tools on productivity and overload",
+    "hybrid work environments and their effect on communication overload",
+    "strategies for effective collaboration in hybrid work models",
+    "digital workplace optimization with kanban and agile methods",
+    "reducing overload through work visualization tools like Trello and Jira",
+    
+    # Well-being and resilience
+    "employee well-being and resilience in digital workplaces",
+    "psychological safety in high-communication environments",
+    "impact of collaboration tool usage on stress levels",
+    "mindful work practices to reduce digital fatigue"
+]
+
     
     for query in queries:
         params = {
             "query": query,
             "fields": "title,abstract,url,isOpenAccess",
-            "limit": batch_size  # Fetch only the desired number of papers
+            "limit": batch_size
         }
         try:
             response = requests.get(url, params=params)
@@ -66,10 +78,10 @@ def fetch_semantic_scholar_articles(total_papers=10, batch_size=10):
             # Debugging: Print the raw response text
             print(f"Response for query '{query}': {response.text}")
             
-            response.raise_for_status()  # Raise an HTTPError for bad responses
+            response.raise_for_status()
             if response.text.strip() == "":
                 print(f"Empty response received for query '{query}'")
-                continue  # Skip to the next query if response is empty
+                continue
             
             papers = response.json().get("data", [])
             
@@ -81,7 +93,6 @@ def fetch_semantic_scholar_articles(total_papers=10, batch_size=10):
                 abstract = paper.get("abstract", "")
                 url = paper.get("url", "No URL available")
                 
-                # Assume conclusion is unavailable, generate summary from abstract
                 conclusion = "Conclusion not available in metadata."
                 summary = generate_gpt_summary(abstract, conclusion)
                 
@@ -98,23 +109,23 @@ def fetch_semantic_scholar_articles(total_papers=10, batch_size=10):
         
         except requests.exceptions.RequestException as e:
             print(f"Error fetching data for query '{query}': {e}")
-            continue  # Skip this query and move on to the next one
-    
+            continue
+        
         if len(all_articles) >= total_papers:
-            break  # Stop if we've reached the desired paper count
+            break
 
     return all_articles
 
 def main():
-    num_articles = 10  # Target paper count is now 10
+    num_articles = 10  # Target paper count for Communication Analysis
     articles = fetch_semantic_scholar_articles(total_papers=num_articles)
     
     if articles:
-        with open("team_conflict_resolution_articles2.json", "w") as f:
+        with open("communication_overload_papers.json", "w") as f:
             json.dump(articles, f, indent=4)
-        print(f"Saved {len(articles)} open-access articles to team_conflict_resolution_articles2.json")
+        print(f"✅ Saved {len(articles)} open-access articles to communication_overload_papers.json")
     else:
-        print("No articles were fetched.")
+        print("⚠️ No articles were fetched.")
 
 if __name__ == "__main__":
     main()

@@ -14,7 +14,8 @@ openai.api_key = OPENAI_API_KEY
 
 ARTICLE_FILES = [
     "team_conflict_resolution_articles.json",
-    "team_conflict_resolution_articles1.json"
+    "team_conflict_resolution_articles1.json",
+    "team_conflict_resolution_articles2.json"
 ]
 
 EMBEDDING_MODEL = "text-embedding-ada-002"
