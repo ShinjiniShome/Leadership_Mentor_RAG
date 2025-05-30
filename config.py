@@ -1,4 +1,4 @@
-#Configuration File for synthetic data generation for Agent 2 : Communication Analysis
+#Configuration File for Team Members
 team = [
     {"name": "Alice", "role": "Project Manager"},
     {"name": "Bob", "role": "Backend Developer"},
